@@ -288,7 +288,6 @@ class _ExpandablePageViewState extends State<ExpandablePageView> {
         allowImplicitScrolling: widget.allowImplicitScrolling,
         restorationId: widget.restorationId,
         clipBehavior: widget.clipBehavior,
-        scrollBehavior: widget.scrollBehavior,
         scrollDirection: widget.scrollDirection,
       );
     }
@@ -303,7 +302,6 @@ class _ExpandablePageViewState extends State<ExpandablePageView> {
       allowImplicitScrolling: widget.allowImplicitScrolling,
       restorationId: widget.restorationId,
       clipBehavior: widget.clipBehavior,
-      scrollBehavior: widget.scrollBehavior,
       scrollDirection: widget.scrollDirection,
     );
   }
